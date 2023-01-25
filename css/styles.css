@@ -1,0 +1,25 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+  
+  :root {
+    --col-primary: #b10400;
+    --col-grey: #181818;
+    --col-grey-dark: #333;
+    --col-black: #000;
+    --col-black-light: #222;
+    --col-white: #fff;
+  }
+  
+  body {
+    font-size: 1.5rem;
+    font-family: "Courier New", Courier, monospace;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--col-black-light);
+  }
